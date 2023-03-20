@@ -85,8 +85,8 @@ const Portfolio = () => {
                     </div>
                     <h3>Mobile repsonsive multi-choice quiz app build with ReactJs</h3>
                     <div className="portfolio__item-cta">
-                        <a href="https://github.com" className='btn' target='_blank' rel="noreferrer">Github</a>
-                        <a href="https://dribble.com" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                        <a href="https://github.com/williamsgelo/quizapp" className='btn' target='_blank' rel="noreferrer">Github</a>
+                        <a href="https://williamsgelo.github.io/quizapp" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
