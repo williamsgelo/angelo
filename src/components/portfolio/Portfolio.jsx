@@ -33,7 +33,7 @@ const Portfolio = () => {
                     <div className="portfolio__item-image">
                         <img src={img8} alt="" />
                     </div>
-                    <h3>Mordern ChatGPT application build with OPEN AI and JavaScript</h3>
+                    <h3>Mordern chatbot application build with OPENAI and JavaScript</h3>
                     <div className="portfolio__item-cta">
                         <a href="https://github.com/williamsgelo/codex-bot" className='btn' target='_blank' rel="noreferrer">Github</a>
                         <a href="https://codex-bot-iota.vercel.app" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
