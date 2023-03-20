@@ -46,7 +46,7 @@ const Portfolio = () => {
                     <h3>Fine Dining mobile-responsive mordern UI Restaurant Landing Page</h3>
                     <div className="portfolio__item-cta">
                         <a href="https://github.com/williamsgelo/restaurant-ui" className='btn' target='_blank' rel="noreferrer">Github</a>
-                        <a href="https//williamsgelo.github.io/restaurant-ui" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                        <a href="https://williamsgelo.github.io/restaurant-ui" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
