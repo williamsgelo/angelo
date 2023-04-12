@@ -2,7 +2,6 @@ import React from 'react'
 import './portfolio.css'
 import img5 from '../../assets/portfolio5.png'
 import img7 from '../../assets/bank-app1.png'
-import img8 from '../../assets/codex.png'
 import img9 from '../../assets/restaurant-ui.png'
 import img10 from '../../assets/gpt3.png'
 import img11 from '../../assets/movie-ui.png'
@@ -27,16 +26,6 @@ const Portfolio = () => {
                     <div className="portfolio__item-cta">
                         <a href="https://github.com/williamsgelo/mordern-bank" className='btn' target='_blank' rel="noreferrer">Github</a>
                         <a href="https://mordern-bank-ten.vercel.app" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
-                    </div>
-                </article>
-                <article className='portfolio__item'>
-                    <div className="portfolio__item-image">
-                        <img src={img8} alt="" />
-                    </div>
-                    <h3>Mordern chatbot application build with OPENAI and JavaScript</h3>
-                    <div className="portfolio__item-cta">
-                        <a href="https://github.com/williamsgelo/codex-bot" className='btn' target='_blank' rel="noreferrer">Github</a>
-                        <a href="https://codex-bot-iota.vercel.app" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
