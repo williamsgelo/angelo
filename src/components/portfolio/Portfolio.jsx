@@ -1,4 +1,3 @@
-import React from 'react'
 import './portfolio.css'
 import img5 from '../../assets/portfolio5.png'
 import img7 from '../../assets/bank-app1.png'
@@ -9,6 +8,7 @@ import img12 from '../../assets/dalles.png'
 import img13 from '../../assets/quiz-app.png'
 import img14 from '../../assets/memory-game.png'
 import img15 from '../../assets/stripe-menu.png'
+import img16 from '../../assets/web3.png'
 
 
 const Portfolio = () => {
@@ -66,6 +66,16 @@ const Portfolio = () => {
                     <div className="portfolio__item-cta">
                         <a href="https://github.com/williamsgelo/movieapp" className='btn' target='_blank' rel="noreferrer">Github</a>
                         <a href="https://williamsgelo.github.io/movieapp" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                    </div>
+                </article>
+                <article className='portfolio__item'>
+                    <div className="portfolio__item-image">
+                        <img src={img16} alt="" />
+                    </div>
+                    <h3>Web3 Blockchain user inteface build with ReactJS and Tailwind.</h3>
+                    <div className="portfolio__item-cta">
+                        <a href="https://github.com/williamsgelo/blockchain-ui" className='btn' target='_blank' rel="noreferrer">Github</a>
+                        <a href="https://blockchain-ui-eta.vercel.app" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
