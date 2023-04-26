@@ -9,6 +9,7 @@ import img13 from '../../assets/quiz-app.png'
 import img14 from '../../assets/memory-game.png'
 import img15 from '../../assets/stripe-menu.png'
 import img16 from '../../assets/web3.png'
+import img17 from '../../summarizer-ai/.png'
 
 
 const Portfolio = () => {
@@ -18,6 +19,18 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
 
             <div className="container portfolio__container">
+
+                <article className='portfolio__item'>
+                    <div className="portfolio__item-image">
+                        <img src={img17} alt="" />
+                    </div>
+                    <h3>Article Summarizer web app build with OPENAI API, Redux and React</h3>
+                    <div className="portfolio__item-cta">
+                        <a href="https://angelo-steel.vercel.app" className='btn' target='_blank' rel="noreferrer">Github</a>
+                        <a href="https://visionary-starlight-74de31.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                    </div>
+                </article>
+
                 <article className='portfolio__item'>
                     <div className="portfolio__item-image">
                         <img src={img7} alt="" />
