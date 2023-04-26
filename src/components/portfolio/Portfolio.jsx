@@ -9,7 +9,7 @@ import img13 from '../../assets/quiz-app.png'
 import img14 from '../../assets/memory-game.png'
 import img15 from '../../assets/stripe-menu.png'
 import img16 from '../../assets/web3.png'
-import img17 from '../../summarizer-ai/.png'
+import img17 from '../../summarizer-ai.png'
 
 
 const Portfolio = () => {
