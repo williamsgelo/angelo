@@ -1,5 +1,5 @@
 import './portfolio.css'
-// import img5 from '../../assets/login-signup.png'
+import img5 from '../../assets/coffee-store.png'
 import img7 from '../../assets/bank-app1.png'
 import img9 from '../../assets/restaurant-ui.png'
 import img10 from '../../assets/gpt3.png'
@@ -20,16 +20,16 @@ const Portfolio = () => {
 
             <div className="container portfolio__container">
 
-                {/* <article className='portfolio__item'>
+                <article className='portfolio__item'>
                     <div className="portfolio__item-image">
                         <img src={img5} alt="" />
                     </div>
-                    <h3>Home page with Login and Signup pages build with JavaScript</h3>
+                    <h3>Coffee store mobile responsive site created with HTML AND CSS</h3>
                     <div className="portfolio__item-cta">
-                        <a href="https://github.com/williamsgelo/login-sigup" className='btn' target='_blank' rel="noreferrer">Github</a>
-                        <a href="https://williamsgelo.github.io/login-sigup" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                        <a href="https://github.com/williamsgelo/coffee-store" className='btn' target='_blank' rel="noreferrer">Github</a>
+                        <a href="https://williamsgelo.github.io/coffee-store" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                     </div>
-                </article> */}
+                </article>
 
                 <article className='portfolio__item'>
                     <div className="portfolio__item-image">
