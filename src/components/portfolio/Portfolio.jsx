@@ -1,4 +1,8 @@
+//styles 
 import './portfolio.css'
+
+// Project Images
+import img4 from '../../assets/language-translator.png'
 import img5 from '../../assets/coffee-store.png'
 import img7 from '../../assets/bank-app1.png'
 import img9 from '../../assets/restaurant-ui.png'
@@ -28,6 +32,17 @@ const Portfolio = () => {
                     <div className="portfolio__item-cta">
                         <a href="https://github.com/williamsgelo/coffee-store" className='btn' target='_blank' rel="noreferrer">Github</a>
                         <a href="https://williamsgelo.github.io/coffee-store" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                    </div>
+                </article>
+
+                <article className='portfolio__item'>
+                    <div className="portfolio__item-image">
+                        <img src={img4} alt="" />
+                    </div>
+                    <h3>Language translator application build with JavaScript</h3>
+                    <div className="portfolio__item-cta">
+                        <a href="https://github.com/williamsgelo/language-translator" className='btn' target='_blank' rel="noreferrer">Github</a>
+                        <a href="https://williamsgelo.github.io/language-translator" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                     </div>
                 </article>
 
