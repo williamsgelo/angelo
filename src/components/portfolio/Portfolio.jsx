@@ -2,6 +2,7 @@
 import './portfolio.css'
 
 // Project Images
+import img3 from '../../assets/youtube.png'
 import img4 from '../../assets/language-translator.png'
 import img5 from '../../assets/coffee-store.png'
 import img7 from '../../assets/bank-app1.png'
@@ -23,6 +24,17 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
 
             <div className="container portfolio__container">
+
+                <article className='portfolio__item'>
+                    <div className="portfolio__item-image">
+                        <img src={img3} alt="" />
+                    </div>
+                    <h3>Youtube clone web app build with ReactJS and Material-UI.</h3>
+                    <div className="portfolio__item-cta">
+                        <a href="https://angelo-steel.vercel.app" className='btn' target='_blank' rel="noreferrer">Github</a>
+                        <a href="https://guileless-pavlova-b2f8bc.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                    </div>
+                </article>
 
                 <article className='portfolio__item'>
                     <div className="portfolio__item-image">
