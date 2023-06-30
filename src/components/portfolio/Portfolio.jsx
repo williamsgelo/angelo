@@ -16,6 +16,7 @@ import img15 from "../../assets/stripe-menu.png";
 import img16 from "../../assets/web3.png";
 import img17 from "../../assets/summarizer-ai.png";
 import img18 from "../../assets/prompt-app.png";
+import img19 from "../../assets/job-app.jpg";
 
 const Portfolio = () => {
   return (
@@ -40,6 +41,33 @@ const Portfolio = () => {
             </a>
             <a
               href="https://prompt-ghi8ztv4i-williamsgelo.vercel.app"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={img19} alt="" />
+          </div>
+          <h3>
+            Mobile job application build with React Native and the JSearch API.
+          </h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/williamsgelo/jobs-app"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://expo.dev/@jellyvibes/react_native_jobs?serviceeType=classic&distribution=expo-go"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
