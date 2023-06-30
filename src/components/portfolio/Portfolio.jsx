@@ -16,7 +16,7 @@ import img15 from "../../assets/stripe-menu.png";
 import img16 from "../../assets/web3.png";
 import img17 from "../../assets/summarizer-ai.png";
 import img18 from "../../assets/prompt-app.png";
-import img19 from "../../assets/job-app.jpg";
+import img19 from "../../assets/expo-logo.png";
 
 const Portfolio = () => {
   return (
