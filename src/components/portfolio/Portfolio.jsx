@@ -2,6 +2,7 @@
 import "./portfolio.css";
 
 // Project Images
+import img1 from "../../assets/doctor.png";
 import img2 from "../../assets/restaurant.png";
 import img3 from "../../assets/youtube.png";
 import img4 from "../../assets/language-translator.png";
@@ -26,6 +27,34 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={img1} alt="restaurant" />
+          </div>
+          <h3>
+            Full stack responsive medicare-booking design build with React.js &
+            Tailwind.
+          </h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/williamsgelo/booking-site"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://doctor-site-roan.vercel.app"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={img2} alt="restaurant" />
