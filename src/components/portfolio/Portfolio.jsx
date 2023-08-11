@@ -7,17 +7,18 @@ import img2 from "../../assets/restaurant.png";
 import img3 from "../../assets/youtube.png";
 import img4 from "../../assets/language-translator.png";
 import img5 from "../../assets/coffee-store.png";
+import img6 from "../../assets/ecommerce.png";
 import img7 from "../../assets/bank-app1.png";
 import img9 from "../../assets/restaurant-ui.png";
 import img10 from "../../assets/gpt3.png";
 import img11 from "../../assets/movie-ui.png";
-import img12 from "../../assets/dalles.png";
+// import img12 from "../../assets/dalles.png";
 import img13 from "../../assets/quiz-app.png";
 import img14 from "../../assets/memory-game.png";
 import img15 from "../../assets/stripe-menu.png";
 import img16 from "../../assets/web3.png";
 import img17 from "../../assets/summarizer-ai.png";
-import img18 from "../../assets/prompt-app.png";
+// import img18 from "../../assets/prompt-app.png";
 import img19 from "../../assets/expo-logo.png";
 
 const Portfolio = () => {
@@ -27,6 +28,34 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={img6} alt="restaurant" />
+          </div>
+          <h3>
+            Full stack responsive e-commerce store build with Nextjs, Sanity and
+            Stripe.
+          </h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/williamsgelo/ecommerce-app"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://ecommerce-app-six-navy.vercel.app"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={img1} alt="restaurant" />
