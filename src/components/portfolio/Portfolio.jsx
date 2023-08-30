@@ -31,34 +31,6 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={img6} alt="restaurant" />
-          </div>
-          <h3>
-            Full stack responsive e-commerce store build with Nextjs, Sanity and
-            Stripe.
-          </h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/williamsgelo/ecommerce-app"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-            <a
-              href="https://ecommerce-app-six-navy.vercel.app"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
             <img src={img8} alt="taxi-app" />
           </div>
           <h3>
@@ -76,6 +48,34 @@ const Portfolio = () => {
             </a>
             <a
               href="https://taxi-app-mu.vercel.app"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={img6} alt="restaurant" />
+          </div>
+          <h3>
+            Full stack responsive e-commerce store build with Nextjs, Sanity and
+            Stripe.
+          </h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/williamsgelo/ecommerce-app"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://ecommerce-app-six-navy.vercel.app"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
