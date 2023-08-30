@@ -95,7 +95,7 @@ const Portfolio = () => {
           </h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/williamsgelo/booking-site"
+              href="https://github.com/williamsgelo/doctor-site"
               className="btn"
               target="_blank"
               rel="noreferrer"
