@@ -21,6 +21,8 @@ import img16 from "../../assets/web3.png";
 import img17 from "../../assets/summarizer-ai.png";
 // import img18 from "../../assets/prompt-app.png";
 import img19 from "../../assets/expo-logo.png";
+import img20 from "../../assets/vict.png";
+import img21 from "../../assets/FF.png";
 
 const Portfolio = () => {
   return (
@@ -29,6 +31,54 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={img20} alt="Villas in Cape Town" />
+          </div>
+          <h3>
+            Full Stack responsive Villas web app build with Nuxt3 and Directus
+            backend
+          </h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/williamsgelo/taxi-app"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://villasincapetown.com/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={img21} alt="Fabric Fusion" />
+          </div>
+          <h3>Mobile responsive web app build with Nuxt3</h3>
+          <div className="portfolio__item-cta">
+            <a href="" className="btn" target="_blank" rel="noreferrer">
+              Github
+            </a>
+            <a
+              href="https://fabricfusionco.com/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={img8} alt="taxi-app" />
